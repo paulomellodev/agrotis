@@ -9,14 +9,15 @@ const Header = () => {
         width: "100%",
         display: "flex",
         justifyContent: "center",
-        boxShadow: 3,
+        boxShadow: 1,
+        backgroundColor: "#fff",
       }}
     >
       <img
         src={agrotisLogo}
         alt="Logo Agrotis"
         style={{
-          height: "35px",
+          height: "25px",
           margin: "5px",
         }}
       />
